@@ -1,0 +1,103 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.avatar {
+    width: 150px;
+    margin: auto;
+    border-radius: 100%;
+    border:2px solid #a4133c;
+}
+.img-avatar{
+    height: 200px;
+    display: flex;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 2px solid #fff;
+    background-color: #a4133c;
+}
+
+.card {
+    width: 400px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-around;
+    background: #ff758f;
+    color: #a4133c;
+    border-radius: 20px;
+    border-bottom: 6px solid #a4133c;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+@keyframes example{
+    0%{background: #ff8fa3;}
+    20%{background: #ff758f;}
+    40%{background: #ff8fa3;}
+    60%{background: #ff758f;}
+    80%{background: #ff8fa3;}
+    100%{background: #ff758f;}
+}
+.heading{
+    color:#800f2f;
+}
+.details{
+    margin:0 0 0 20px;
+}
+.hz-list{
+    display: flex;
+}
+.hz-list li{
+    margin: 5px auto;
+}
+.border-blue {
+    border: 1px dotted blue;
+}
+.mr-20{
+    margin:0 0 0 20px;
+}
+.link{
+    text-decoration: none;
+    color:#fff;
+}
+.btn{
+    margin:20px auto;
+    display: block;
+    padding: 20px 50px;
+    border-radius: 35px;
+    font-weight: bolder;
+    background-color: #a4133c;
+    color:#fff;
+    border: 2px solid #ffccd5;
+}
+.btn:hover{
+     border: 2px solid #a4133c;
+    color:#a4133c;
+    background-color: #fff;
+}
+.btn:hover a{
+    color:#a4133c;
+}
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
